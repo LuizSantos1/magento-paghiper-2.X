@@ -49,14 +49,6 @@ class Heading extends Field
         return $this->_decorateRowHtml($element, $html);
     }
 
-    /**
-     * Render element value
-     *
-     * @param AbstractElement $element
-     * @return string
-     */
-    protected function _renderValue(AbstractElement $element)
-    {
-        return $this->_toHtml();
+    
     }
 }
